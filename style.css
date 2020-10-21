@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Roboto&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#banner {
+  background-image: url(https://source.unsplash.com/random);
+  padding: 170px 0;
+  background-size: cover;
+}
+
+#titles {
+  width: 550px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+#description {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: lighter;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+}
+
+h2 {
+  padding: 30px 30px;
+  font-family: 'Roboto', sans-serif;
+  color: rgba(100, 100, 100, 0.6);
+  font-weight: lighter;
+  font-size: 27px;
+
+}
+
+.container {
+  padding: 10px 10px;
+  margin: 0 auto;
+  width: 750px;
+}
+
+a {
+    text-decoration: none;
+    background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
+    color: #636363;
+    font-weight: lighter;
+    font-size: 25px;
+    font-style: italic;
+}
+
+a:hover {
+    background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
+    color: black;
+    font-weight: lighter;
+    font-size: 25px;
+    font-style: italic;
+}
+
+@media(max-width: 1200px) {
+  .container {
+    width: 900px;
+  }
+}
+
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media(max-width: 768px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media(max-width: 576px) {
+  .container {
+    width: 300px;
+  }
+}
+
